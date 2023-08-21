@@ -1,2 +1,2 @@
 # pinnacle
-The last step in interface framework evolution.
+The last step in frontend framework evolution.
