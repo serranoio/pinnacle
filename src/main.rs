@@ -1,6 +1,10 @@
-use clap::Parser;
-use pinnacle::cli;
+// use pinnacle::cli;
+// use crate::cli::arxgs::PinnacleArgs;
+pub mod cli;
+
 use crate::cli::args::PinnacleArgs;
+use clap::Parser;
+
 
 fn main() {
     let pinnacle_args: PinnacleArgs = PinnacleArgs::parse();
