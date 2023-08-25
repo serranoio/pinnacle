@@ -12,7 +12,7 @@ pub enum Subcommands {
     /// Create a new pinnacle project
     New(NewProject),
     /// Compile pinnacle
-    Build(NewProject),
+    Build(Build),
     /// Download necessary components
     Download,
 }
